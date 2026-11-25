@@ -1,0 +1,15 @@
+# 统一换行符，避免 Windows/Linux 协作时整文件 diff
+* text=auto eol=lf
+
+# 二进制文件不要做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+
+# Python 明确按文本处理
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
